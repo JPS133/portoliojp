@@ -1,0 +1,140 @@
+.skills {
+  padding: 120px 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+.skills .title {
+  display: inline-block;
+  padding: 10px 24px;
+  background: #151d33;
+  border-radius: 30px;
+  color: #7c3aed;
+  margin-bottom: 20px;
+}
+
+.skills h2 {
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.skills h2 span {
+  color: #7c3aed;
+}
+
+.skills p {
+  max-width: 720px;
+  margin: auto;
+  color: #9ca3af;
+  line-height: 1.8;
+  margin-bottom: 60px;
+}
+
+/* Slider */
+
+.slider {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin: 30px 0;
+}
+
+.slide-track {
+  display: flex;
+  width: max-content;
+  gap: 30px;
+  animation: scroll 22s linear infinite;
+}
+
+.reverse .slide-track {
+  animation: scrollReverse 22s linear infinite;
+}
+
+.slider:hover .slide-track {
+  animation-play-state: paused;
+}
+
+/* Card */
+
+.skill-card {
+  width: 220px;
+  height: 200px;
+  background: #111827;
+  border: 1px solid #242d42;
+  border-radius: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: .35s;
+  flex-shrink: 0;
+}
+
+.skill-card:hover {
+  transform: translateY(-10px);
+  border-color: #7c3aed;
+  box-shadow: 0 15px 35px rgba(124,58,237,.25);
+}
+
+.skill-icon {
+  font-size: 60px;
+  color: #7c3aed;
+  margin-bottom: 20px;
+  transition: .35s;
+}
+
+.skill-card:hover .skill-icon {
+  transform: scale(1.2) rotate(10deg);
+}
+
+.skill-card h3 {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Animations */
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scrollReverse {
+  from {
+    transform: translateX(-50%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+  .skills h2 {
+    font-size: 34px;
+  }
+
+  .skill-card {
+    width: 170px;
+    height: 170px;
+  }
+
+  .skill-icon {
+    font-size: 48px;
+  }
+
+  .slide-track {
+    gap: 20px;
+  }
+
+}
