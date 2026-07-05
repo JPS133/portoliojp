@@ -1,18 +1,216 @@
-# React + Vite
+# 🚀 Jai Pratap Singh | Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and animated portfolio website built with **React.js**, **Framer Motion**, and **CSS3**. This portfolio highlights my technical skills, featured projects, education, and contact information through a clean and interactive user interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌐 Live Demo
 
-## React Compiler
+🔗 **Portfolio:** https://portoliojp.vercel.app/
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+---
 
-Note: This will impact Vite dev & build performances.
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🎨 Modern dark UI with a purple theme
+- 📱 Fully responsive across all devices
+- ⚡ Smooth animations using Framer Motion
+- 🚀 Scroll-based navigation
+- 👨‍💻 Interactive Hero section
+- 🛠️ Animated Skills section
+- 💼 Featured Projects showcase
+- 🎓 Education & Experience section
+- 📄 Resume download
+- 📬 Social media contact cards
+- ⬆️ Scroll to top button
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- React.js
+- JavaScript (ES6)
+- HTML5
+- CSS3
+
+### Libraries
+
+- Framer Motion
+- React Icons
+
+### Tools
+
+- Git
+- GitHub
+- VS Code
+- Vite
+
+---
+
+## 📂 Project Structure
+
+```text
+portfolio/
+│
+├── public/
+│   └── Resume.pdf
+│
+├── src/
+│   ├── assets/
+│   │   ├── images/
+│   │   └── Projects/
+│   │
+│   ├── components/
+│   │   ├── About/
+│   │   ├── Contact/
+│   │   ├── CursorGlow/
+│   │   ├── Experience/
+│   │   ├── Footer/
+│   │   ├── Hero/
+│   │   ├── Loader/
+│   │   ├── Navbar/
+│   │   ├── Projects/
+│   │   ├── ScrollProgress/
+│   │   ├── ScrollTop/
+│   │   └── Skills/
+│   │
+│   ├── data/
+│   │   └── projects.js
+│   │
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
+└── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/JPS133/portfolio.git
+```
+
+### Navigate to the Project
+
+```bash
+cd portfolio
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Start Development Server
+
+```bash
+npm run dev
+```
+
+The application will run at:
+
+```text
+http://localhost:5173
+```
+
+---
+
+## 💼 Featured Projects
+
+### 🤖 AI App Generator
+
+An AI-powered application that transforms natural language prompts into structured application specifications using modern web technologies.
+
+**Tech Stack**
+
+- React
+- Next.js
+- Prisma
+- OpenAI
+
+---
+
+### 🎓 College Discovery Platform
+
+A full-stack web application that helps students search colleges, view details, and manage saved colleges with secure authentication.
+
+**Tech Stack**
+
+- Next.js
+- PostgreSQL
+- Prisma ORM
+- Authentication
+
+---
+
+## 📸 Screenshots
+
+### Home
+
+> Add your homepage screenshot here.
+
+```
+public/
+└── preview-home.png
+```
+
+```md
+![Home](public/preview-home.png)
+```
+
+---
+
+## 📬 Connect With Me
+
+- 💼 **LinkedIn**  
+  https://www.linkedin.com/in/jai-pratap-singh-50a255331/
+
+- 💻 **GitHub**  
+  https://github.com/JPS133
+
+- 📧 **Email**  
+  jaiprataps830@gmail.com
+
+- 📷 **Instagram**  
+  https://www.instagram.com/theee__jp.effect
+
+---
+
+## 🎯 Future Enhancements
+
+- 🌙 Light/Dark Theme Toggle
+- 📝 Blog Section
+- 📊 More Featured Projects
+- 📈 Performance Optimizations
+- 🎨 Additional UI Animations
+
+---
+
+## 👨‍💻 About Me
+
+I'm **Jai Pratap Singh**, a B.Tech Computer Science & Engineering student passionate about **Full Stack Development**, **Artificial Intelligence**, and building modern web applications. I enjoy creating responsive, user-friendly applications while continuously learning new technologies and improving my development skills.
+
+---
+
+## ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub!
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+<p align="center">
+Made with ❤️ by <strong>Jai Pratap Singh</strong>
+</p>
