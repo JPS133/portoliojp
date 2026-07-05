@@ -1,12 +1,9 @@
 import "./Projects.css";
 import projects from "../../data/projects";
 import { motion } from "framer-motion";
-import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
-
 function Projects() {
   return (
     <section className="projects" id="projects">
-
       <div className="section-tag">
         Featured Projects
       </div>
@@ -16,14 +13,12 @@ function Projects() {
       </h2>
 
       <p>
-        A selection of projects showcasing my skills in
-        frontend development, AI, and full-stack engineering.
+        A selection of projects showcasing my skills in frontend
+        development, AI, and full-stack engineering.
       </p>
 
       <div className="projects-grid">
-
         {projects.map((project, index) => (
-
           <motion.div
             className="project-card"
             key={project.id}
@@ -32,13 +27,11 @@ function Projects() {
             transition={{ delay: index * 0.15 }}
             viewport={{ once: true }}
           >
-
             <div className="project-image">
               <img src={project.image} alt={project.title} />
             </div>
 
             <div className="project-content">
-
               <h3>{project.title}</h3>
 
               <p>{project.description}</p>
@@ -48,21 +41,10 @@ function Projects() {
                   <span key={item}>{item}</span>
                 ))}
               </div>
-
-              <div className="project-buttons">
-
-                
-
-              </div>
-
             </div>
-
           </motion.div>
-
         ))}
-
       </div>
-
     </section>
   );
 }

@@ -74,15 +74,6 @@ function Hero() {
 
         </div>
 
-        <div className="socials">
-
-          <a href="#"><FaGithub /></a>
-          <a href="#"><FaLinkedin /></a>
-          <a href="#"><FaInstagram /></a>
-          <a href="#"><FaEnvelope /></a>
-
-        </div>
-
       </div>
 
       <div className="hero-right">
